@@ -1,0 +1,10 @@
+#include <iostream>
+#include "reverse.cpp" // it was supposed to be in a diffrent file
+using namespace std;
+
+int main()
+{
+    cout << numberofdigits(999999999999) << endl;
+
+    return 0;
+}
